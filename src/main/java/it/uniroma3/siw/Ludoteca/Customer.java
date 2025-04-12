@@ -1,9 +1,11 @@
 package it.uniroma3.siw.Ludoteca;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+
 
 @Entity
 public class Customer {
@@ -17,5 +19,7 @@ public class Customer {
     private String email;
     private String password;
     private String phoneNumber;     
+
+    
 
 }
